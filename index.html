@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>тест на размер твоей опухули</title>
+<style type="text/css">
+	.vaprasus1{width: 700px; height: 300px; background-color: white;}
+	.otvetus1 {width: 700px; height: 100px; background-color: red;}
+	.otvetus2 {width: 700px; height: 100px; background-color: green;}
+	.otvetus3 {width: 700px; height: 100px; background-color: blue;}
+
+	.vaprasus2{width: 700px; height: 300px; background-color: white; display: none;}
+	.otvet1   {width: 700px; height: 100px; background-color: gray;  display: none;}
+	.otvet2   {width: 700px; height: 100px; background-color: gray;  display: none;}
+	.otvet3   {width: 700px; height: 100px; background-color: gray;  display: none;}
+
+	.vaprasus3 {width: 700px; height: 300px; background-color: white;  display: none;}
+	.ot1   	   {width: 700px; height: 100px; background-color: gray;  }
+	.ot2       {width: 700px; height: 100px; background-color: gray;  }
+	.ot3       {width: 700px; height: 100px; background-color: gray; }
+</style>  
+</head>
+<body>
+	<div class="vaprasus1"> 
+		<h1>сколько будет 10+9</h1>
+		<div class="otvetus1">
+			<h1>21</h1>
+		</div>		
+		
+		<div class="otvetus2">
+			<h1>19</h1>
+		</div>	
+		
+		<div class="otvetus3">
+			<h1>1000-7</h1>
+		</div>	
+	</div>
+
+
+	<div class="vaprasus2"> 
+		<h1>где были миньёны с 1933-1945</h1>
+		<div class="otvet1">
+			<h1>нигде</h1>
+		</div>		
+		
+		<div class="otvet2">
+			<h1>служили австрийскому художнику</h1>
+		</div>	
+		
+		<div class="otvet3">
+			<h1>записывали трэк для монгенштерна</h1>
+		</div>	
+	</div>
+
+
+	<div class="vaprasus3"> 
+		<h1>кто такой спамтон?</h1>
+		<div class="ot1">
+			<h1>ОН СВЯЗАН С ГАСТЕРОМ НЕ КЛИКБЕЙТ СМОТРЕТЬ ВСЕМ</h1>
+		</div>		
+		
+		<div class="ot2">
+			<h1>продаван из помойки</h1>
+		</div>	
+		
+		<div class="ot3">
+			<h1>это тик-токер</h1>
+		</div>	
+	</div>
+<script type="text/javascript">
+	document.querySelector(".otvetus1").onclick = function() {
+		alert("ты тупой") 
+	}
+	document.querySelector(".otvetus2").onclick = function() {
+		alert("МЕГА КРУТ") 
+		document.querySelector(".vaprasus1").style.display = "none"
+		document.querySelector(".vaprasus2").style.display = "block"
+		document.querySelector(".otvet1").style.display = "block"
+		document.querySelector(".otvet2").style.display = "block"
+		document.querySelector(".otvet3").style.display = "block"
+	}
+	document.querySelector(".otvetus3").onclick = function() {
+		alert("убейся") 	
+		
+	}
+	
+	document.querySelector(".otvet1").onclick = function() {
+		alert("убейся") 
+	}
+
+	document.querySelector(".otvet3").onclick = function() {
+		alert("завидуешь?") 
+	}
+	
+	document.querySelector(".otvet2").onclick = function() {
+		alert("праавильно") 
+		document.querySelector(".vaprasus2").style.display = "none"
+		document.querySelector(".vaprasus3").style.display = "block"
+	}
+
+		document.querySelector(".ot1").onclick = function() {
+		alert("походу ты нахер отсталый") 
+	}
+
+	document.querySelector(".ot2").onclick = function() {
+		alert("ну типо") 
+	}
+	
+	document.querySelector(".ot3").onclick = function() {
+		alert("цианида хлебни") 
+	}
+</script>
+
+
+
+			</body>
+</html>
